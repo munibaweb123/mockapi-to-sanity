@@ -23,7 +23,10 @@ export default async function Home() {
   // const quoteData:quoteData = await getData();
   // console.log(quoteData)
   return (
-    <div>
+    <div className="max-w-6xl mx-auto">
+      <h1 className="text-2xl p-10 text-center font-bold">MockApi to Sanity import</h1>
+      <p className="text-center p-5">Hckathon practice of mockapi (fake api).</p>
+
 <Mockapi/>
     </div>
   );
